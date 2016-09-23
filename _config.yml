@@ -13,24 +13,24 @@ sass:
 
 ## Globals
 
-url:     http://saswatpadhi.github.io
-baseurl: /purity-jekyll-theme
+url:     http://drizzt.github.io
+baseurl: /impurity-jekyll-theme
 
-title:    Purity
+title:    Impurity
 tagline:  A clean, simple theme for Jekyll                             #Optional
-timezone: America/Los_Angeles
+timezone: Europe/Rome
 
 author:
-  name:     Saswat Padhi
-  link:     http://saswatpadhi.github.io
+  name:     Timothy Redaelli
+  link:     http://drizzt.github.io
   photo:
     alt:    Avatar from GitHub
-    remote: https://avatars3.githubusercontent.com/u/1577944
+    remote: https://avatars2.githubusercontent.com/u/211316
 #    local: assets/img/photo.jpg
 
 github:
-  user: SaswatPadhi
-  repo: purity-jekyll-theme
+  user: drizzt
+  repo: impurity-jekyll-theme
 
 
 ## Theme and Layout
@@ -63,22 +63,22 @@ layout:
 topmenu:
   GitHub:
     Purity:
-      url:   https://github.com/SaswatPadhi/purity-jekyll-theme
-      title: 'Purity on GitHub'
+      url:   https://github.com/drizzt/impurity-jekyll-theme
+      title: 'Impurity on GitHub'
       icon:  github
     Fork:
-      url:   https://github.com/SaswatPadhi/purity-jekyll-theme#fork-destination-box
-      title: 'Fork Purity'
+      url:   https://github.com/drizzt/impurity-jekyll-theme#fork-destination-box
+      title: 'Fork Impurity'
       icon:  code-fork
   Download:
     Zip:
-      url:   https://github.com/SaswatPadhi/purity-jekyll-theme/archive/master.zip
+      url:   https://github.com/drizzt/impurity-jekyll-theme/archive/master.zip
       title: 'Download zip source'
       icon:  download
   Author:
-    padhi:
-      url:   http://saswatpadhi.github.io
-      title: '@SaswatPadhi on GitHub'
+    drizzt:
+      url:   http://drizzt.github.io
+      title: '@drizzt on GitHub'
       icon:  user
   Test Pages:
     headings_test:
@@ -117,3 +117,6 @@ sidemenu:
       url:   https://en.wikipedia.org/wiki/Cascading_Style_Sheets
       title: CSS [Wikipedia]
       icon:  css3
+
+exclude:
+  - vendor
